@@ -29,7 +29,7 @@ namespace _Cards
 
             do
             {
-                /*
+                /* 
                 shuffle = shuffle.Take(26)
                     .LogQuery("Top Half")
                     .InterleaveSequenceWith(shuffle.Skip(26).LogQuery("Bottom Half"))
